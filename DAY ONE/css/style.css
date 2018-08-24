@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/back01.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content-global{
+
+}
+
+.content-x{
+	width: 33.33333333%;
+	float: left;
+	padding-top: 50px;
+}
+
+/*.content-01 img:hover{
+	box-shadow: 0 0 40px 40px rgba(0,0,0,0.05);
+  	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  	z-index: 2;
+}
+
+.content-02 img:hover{
+	box-shadow: 0 0 40px 40px rgba(0,0,0,0.05);
+  	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  	z-index: 2;
+}*/
+
+.content-xx:hover{
+	box-shadow: 0 0 40px 40px rgba(0,0,0,0.05);
+  	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  	z-index: 2;
+}
+
+.content-xx{
+	width: 75%;
+	display: table;
+	margin: 0 auto;
+}
+
+.img-content{
+	width: 100%;
+}
+
+p{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	/*text-align: center;*/
+	padding: 15px;
+}
+
+
+/*responsive*/
+@media only screen and (max-width: 850px) {
+    .content-x{
+	width: 100%;
+}
+}
